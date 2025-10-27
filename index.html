@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodies--Organic||2nd Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <h2>akib</h2>
+    <header class="header container">
+        <h1 class="logo">Foodies</h1>
+        <div class="hamberger" onclick="handleToggle(this)">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+        <nav class="navber">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Service</a>
+            <a href="">Company</a>
+            <a href="">Pages</a>
+        </nav>
+    </header>
+
+    <script>
+        let navber = document.querySelector('.navber')
+        function handleToggle (e){
+            e.classList.toggle('active')
+            navber.classList.toggle('toggle')
+        }
+    </script>
 </body>
 </html>
