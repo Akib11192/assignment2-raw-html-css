@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <div class="root"></div>
+
+
     <header class="header container">
         <h1 class="logo">Foodies</h1>
         <div class="hamberger" onclick="handleToggle(this)">
@@ -25,6 +28,8 @@
             <a href="">Pages</a>
         </nav>
     </header>
+
+
     <main class="container hero">
         <div class="hero-text">
             <h2>We're Serious for Food.</h2>
@@ -60,10 +65,10 @@
             <img src="./images/Group 2.png" alt="">
             <img src="./images/Group 3.png" alt="">
         </div>
-
-
     </main>
-    <hr>
+ 
+
+
     <section class="feature-sec">
         <div class="features">
             <div class=" fea fea-1">
@@ -95,11 +100,10 @@
                 </div>
             </div>
     </section>
-    <hr>
+   
 
 
-
-    <section class="benefits">
+    <section class="benefits container">
         <div class="ben-img">
             <img src="./images/Place Your Image (2).png" alt="">
         </div>
@@ -132,7 +136,9 @@
         </div>
     </section>
 
-    <section class="stars">
+
+
+    <section class="stars container">
         <div class="stars-img">
             <img src="./images/Place Your Image (3).png" alt="">
         </div>
@@ -161,15 +167,18 @@
         </div>
     </section>
 
-    <section class="variety">
+
+
+    <section class="variety container">
         <div class="v-heading">
             <p>Our Features</p>
             <h4>Variety Of Veggie Foods</h4>
         </div>
         <div class="v-img-detailes">
-            <div class="v v-1">
+           <div class="v-1">
+             <div class="v">
                 <div>
-                    <img src="./images/Place Your Image (4).png" alt="">
+                    <img src="./images/Place Your Image (4).png"  alt="">
                 </div>
                 <div>
                     <h4>Veggies Are Forever</h4>
@@ -180,7 +189,7 @@
                     </button>
                 </div>
             </div>
-            <div class="v v-2">
+            <div class="v">
                 <div>
                     <img src="./images/Place Your Image (5).png" alt="">
                 </div>
@@ -193,7 +202,9 @@
                     </button>
                 </div>
             </div>
-            <div class="v v-3">
+           </div>
+            <div class="v-2">
+                <div class="v">
                 <div>
                     <img src="./images/Place Your Image (6).png" alt="">
                 </div>
@@ -206,7 +217,7 @@
                     </button>
                 </div>
             </div>
-            <div class="v v-4">
+            <div class="v">
                 <div>
                     <img src="./images/Place Your Image (7).png" alt="">
                 </div>
@@ -219,8 +230,12 @@
                     </button>
                 </div>
             </div>
+            </div>
         </div>
     </section>
+
+
+
 
     <section class="foods-rating">
         <div class="heading">
@@ -303,6 +318,11 @@
 
         </div>
     </section>
+
+
+
+
+    
     <section class="veggie">
         <h3>Veggie Foods? Ingredients You Want To Try</h3>
         <button>
@@ -343,12 +363,10 @@
             <div class="get-in-touch">
                 <h4>Get in touch</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                <div class="input">
-                    <form action="">
-                        <input type="email" name="email" id="">
-                        <Button>Subscribe</Button>
-                    </form>
-                </div>
+                <form action="">
+                    <input type="email" name="email" id="" placeholder="Email">
+                    <Button>Subscribe</Button>
+                </form>
             </div>
         </div>
         <div class="copyright">
